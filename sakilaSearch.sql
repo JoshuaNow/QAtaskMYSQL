@@ -20,7 +20,7 @@ select title, length from film_list order by length asc limit 10;
 -- 8) Find all movies that have deleted scenes.
 select special_features , title from film where special_features="Deleted Scenes";
 -- 9) Find the titles of all the horror movies.
-
+select title from film_list where category= "horror";
 
 
 
